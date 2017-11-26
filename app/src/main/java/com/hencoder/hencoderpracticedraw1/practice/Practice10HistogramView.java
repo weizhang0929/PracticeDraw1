@@ -40,13 +40,13 @@ public class Practice10HistogramView extends View {
 
     private void initDate() {
         dataList = new ArrayList<>();
-        dataList.add(new Data("Froyo", 1));
-        dataList.add(new Data("GB", 3));
-        dataList.add(new Data("ICS", 3));
-        dataList.add(new Data("JB", 15));
-        dataList.add(new Data("KitKat", 25));
-        dataList.add(new Data("L", 30));
-        dataList.add(new Data("M", 14));
+        dataList.add(new Data("Froyo", 1, Color.GREEN));
+        dataList.add(new Data("GB", 3, Color.GREEN));
+        dataList.add(new Data("ICS", 3, Color.GREEN));
+        dataList.add(new Data("JB", 15, Color.GREEN));
+        dataList.add(new Data("KitKat", 25, Color.GREEN));
+        dataList.add(new Data("L", 30, Color.GREEN));
+        dataList.add(new Data("M", 14, Color.GREEN));
         for (Data data : dataList) {
             maxNumber = Math.max(data.getNumber(), maxNumber);
         }
