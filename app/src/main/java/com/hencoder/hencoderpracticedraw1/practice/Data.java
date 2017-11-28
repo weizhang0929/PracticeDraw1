@@ -8,11 +8,11 @@ import android.support.annotation.ColorInt;
 
 public class Data {
     private String name = "";
-    private int number;
+    private float number;
     @ColorInt
     private int color;
 
-    public Data(String name, int number, @ColorInt int color) {
+    public Data(String name, float number, @ColorInt int color) {
         this.name = name;
         this.number = number;
         this.color = color;
@@ -26,11 +26,11 @@ public class Data {
         this.name = name;
     }
 
-    public int getNumber() {
+    public float getNumber() {
         return number;
     }
 
-    public void setNumber(int number) {
+    public void setNumber(float number) {
         this.number = number;
     }
 

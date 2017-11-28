@@ -19,7 +19,7 @@ public class Practice10HistogramView extends View {
     Paint rectPaint;
 
     private List<Data> dataList;
-    private int maxNumber = 0;
+    private float maxNumber = 0;
 
     public Practice10HistogramView(Context context) {
         this(context, null);
